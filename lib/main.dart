@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import 'core/router/app_router.dart';
 import 'core/theme/app_theme.dart';
 import 'core/constants/app_constants.dart';
@@ -29,7 +28,7 @@ Future<void> main() async {
 
   // Open Boxes using AppConstants
   // IMPORTANT: Standardizing names to prevent "Box not found" errors
-  await Hive.openBox(AppConstants.newsCacheBox); 
+  await Hive.openBox(AppConstants.newsCacheBox);
   await Hive.openBox<ArticleHiveModel>(AppConstants.bookmarksBox);
   await Hive.openBox(AppConstants.settingsBox);
 

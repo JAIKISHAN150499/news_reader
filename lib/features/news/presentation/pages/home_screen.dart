@@ -74,8 +74,9 @@ class _HomeScreenState extends State<HomeScreen>
               pinned: true,
               forceElevated: innerBoxIsScrolled,
               flexibleSpace: FlexibleSpaceBar(
+                titlePadding: EdgeInsets.symmetric(vertical: 50,horizontal: 10),
                 title: const Text(
-                  'NewsReader',
+                  'News Reader',
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 background: BlocBuilder<NewsBloc, NewsState>(

@@ -1,6 +1,10 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'article_dto.dart';
 
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
 
 ArticleDto _$ArticleDtoFromJson(Map<String, dynamic> json) => ArticleDto(
   id: json['id'] as String?,

@@ -1,6 +1,10 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
 
 part of 'article_hive_model.dart';
 
+// **************************************************************************
+// TypeAdapterGenerator
+// **************************************************************************
 
 class ArticleHiveModelAdapter extends TypeAdapter<ArticleHiveModel> {
   @override
